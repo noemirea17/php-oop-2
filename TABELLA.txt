@@ -1,0 +1,10 @@
+Users
+
+ID			numero	AUTO INCREMENT	NOT NULL	PRIMARY KEY
+nome			stringa	VARCHAR(50)
+cognome			stringa	VARCHAR(50)
+username		stringa	VARCHAR(50)
+email			stringa	VARCHAR(50)
+data_nascita		data	DATE	
+eta			numero	INT
+
