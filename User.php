@@ -10,18 +10,21 @@ class User {
     public $eta;
 
     //costruttore
-    public function __construct($_id, $_email){
+    public function __construct($_id = '', $_email = '')
+    {
         $this->id = $_id;
         
         $this->email = $_email;
     }
 
     //metodi
-    public function setUsername($_username){
+    public function setUsername($_username)
+    {
         $this->username = $_username;
     }
 
-    public function getUsername(){
+    public function getUsername()
+    {
         return $this->username;
     }
 
@@ -30,13 +33,16 @@ class User {
         return $this->email;
     }
 
-    public function setEta() {
+    public function setEta()
+    {
         $this->eta = 2021 - $this->dataNascita;
     }
 
-    public function getEta(){
+    public function getEta()
+    {
         return $this->eta;
     }
 
 
 }
+
